@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: fullstack-chat
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run app.py
+    envVars:
+      - key: STREAMLIT_SCRIPT
+        value: app.py
