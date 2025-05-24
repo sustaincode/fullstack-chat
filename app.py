@@ -5,9 +5,9 @@ import fitz  # PyMuPDF
 
 
 # --- Configuration ---
+gemini_api_key = os.getenv("GEMINI_API_KEY")
 
-
-API_KEY = GEMINI_API_KEY
+API_KEY = gemini_api_key
 # --- CONFIGURATION ---
 GEMINI_MODEL = "gemini-2.0-flash"  # Change here: "gemini-pro" or "gemini-2.0-flash"
 
