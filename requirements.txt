@@ -2,3 +2,4 @@ streamlit
 requests
 pymupdf
 streamlit-extras
+gunicorn
